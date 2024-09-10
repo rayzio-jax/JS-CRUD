@@ -1,4 +1,4 @@
-# JavaScript CRUD (ft. Express & Node.js)
+# JavaScript CRUD (ft. Express & Node.js & PostgreSQL)
 
 ## Purpose
 
