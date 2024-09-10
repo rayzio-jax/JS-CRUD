@@ -50,3 +50,5 @@ A: As a JavaScript programmer, I decide to try using vanilla JavaScript, and usi
 
 >Q: Can I use this project for my personal? </br>
 A: Yes, you can use it as a basic for your personal project as this project is intended to educate and showing tutorial on how to make CRUD using JS only.
+
+P.S: *I'm sorry if the project files a bit messy, my bad*
