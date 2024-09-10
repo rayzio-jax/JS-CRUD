@@ -13,7 +13,7 @@ This project is designed for beginners and intermediate developers who want to l
 1. Clone the repository to your local machine.
 
 ```bash
-git clone <repo>
+git clone https://github.com/rayzio-jax/JS-CRUD.git
 ```
 
 2. Install the required packages.
