@@ -1,11 +1,13 @@
 const express = require("express");
 const router = express.Router();
 
+// Get all the router modules
 const getRouter = require("./getRoute");
 const postRouter = require("./postRoute");
 const updateRouter = require("./updateRoute");
 const deleteRouter = require("./deleteRoute");
 
+// Root of API endpoint is `/api`
 router.get("/api", (req, res) => {
 	try {
 		res
@@ -16,6 +18,7 @@ router.get("/api", (req, res) => {
 	}
 });
 
+// Assign every of router modules to express router
 getRouter(router);
 postRouter(router);
 updateRouter(router);
