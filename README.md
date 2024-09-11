@@ -8,6 +8,22 @@ This project is a simple CRUD (Create, Read, Update, Delete) application built w
 
 This project is designed for beginners and intermediate developers who want to learn how to build a simple CRUD application using JavaScript instead of PHP.
 
+## Requirements
+
+* Node.js
+* Npm
+* PostgreSQL
+
+(optional)
+
+* CORS
+
+## Changes needed before start
+
+1. Please check the `db.js` file first, which you have to assign a `.env` values there, so make your own `.env` and change as you desire in `db.js` file.
+2. The database dummy column used in here is `uuid`, `name`, `gender`, and `age`. The `uuid` column is generated fill by PostgreSQL `uuid_generate_v4`, make sure you have installed the extension of `uuid_generate_v4` in your PostgreSQL. Check out on Google about how to install it, or [this one](https://stackoverflow.com/questions/12505158/generating-a-uuid-in-postgres-for-insert-statement).
+3. Check every query in [router](https://github.com/rayzio-jax/JS-CRUD/tree/master/router) folder and make some change on the query based on your own database structures.
+
 ## How to start
 
 1. Clone the repository to your local machine.
@@ -31,13 +47,16 @@ npm run dev
 ## Depedencies
 
 <pre>
-compression: 1.7.4
-cors: 2.8.5
+*required*
 dotenv: 16.4.5
 express: 4.19.2
-helmet: 7.1.0
 pg: 8.12.0
+
+*optional*
 nodemon: 3.1.4
+compression: 1.7.4
+cors: 2.8.5
+helmet: 7.1.0
 </pre>
 
 ## FAQ
