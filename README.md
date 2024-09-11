@@ -8,16 +8,6 @@ This project is a simple CRUD (Create, Read, Update, Delete) application built w
 
 This project is designed for beginners and intermediate developers who want to learn how to build a simple CRUD application using JavaScript instead of PHP.
 
-## Requirements
-
-* Node.js
-* Npm
-* PostgreSQL
-
-(optional)
-
-* CORS
-
 ## Changes needed before start
 
 1. Please check the `db.js` file first, which you have to assign a `.env` values there, so make your own `.env` and change as you desire in `db.js` file.
